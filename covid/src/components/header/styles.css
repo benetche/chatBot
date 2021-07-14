@@ -1,0 +1,29 @@
+.header{
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background-color:white;
+    position: sticky;
+    display: flex;
+    align-items: center;   
+    justify-content:flex-end;
+
+}
+
+.shadow{
+     box-shadow: 0 2px 4px 0 rgba(60, 64, 67, 0.3),
+    0 4px 12px 4px rgba(60, 64, 67, 0.15);
+}
+
+
+.header a{
+    font-size: 20px;
+    padding: 10px;
+    color: grey;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.header a:focus{
+    color:black;
+    border-bottom: 2px solid rgb(162, 0, 255);
+}

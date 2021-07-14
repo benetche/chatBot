@@ -1,0 +1,93 @@
+#chatbox{
+    width: 600px;
+    height: 690px;
+    background-color: white;
+    margin-top: 30px;
+    overflow: auto;
+    overflow-x: hidden;
+    clear: both;
+    position: relative;
+    bottom: 20px;
+    padding-bottom: 30px;
+}
+
+#chatbox p{
+    word-break: break-all;
+}
+.div-chatbox{
+    width: 600px;
+    height: 800px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 20px;
+    position: relative;
+}
+.balloonSender, .balloonReceiver{
+    min-width: 100px;
+    max-width: 200px;
+    padding: 10px;
+    width: auto;
+    min-height: 40px;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    clear: both;
+    position: relative;
+}
+
+.balloonSender{
+    background-color: rgb(194, 255, 194);
+    margin-left: 10px;
+    float: left;
+}
+.balloonReceiver{
+    background-color: rgb(118, 173, 255);
+    margin-right: 10px;
+    float: right;
+}
+
+.msg-content, .msg-time{
+    clear: both;
+    margin: 0px;
+    padding: 0;
+}
+
+.msg-content{
+    color: #323232;
+    font-size: 16px;
+    float: left;
+  
+}
+
+.msg-time{
+    color:#323232b6;
+    font-size: 12px;
+    float: right;
+}
+
+.textbox{
+    height: 110px;
+   
+}
+
+.textbox textarea{
+    padding: 10px;
+    left: 5px;
+    width: 500px;
+    resize: none;
+    height: 80px;
+    height: auto;
+    position: relative;
+    float: left;
+    bottom: 10px;
+}
+#chatbox > :last-child{
+    margin-bottom: 10px;
+}
+
+button{
+    position: relative;
+    float: right;
+    top: 20px;
+    right: 5px;
+}
