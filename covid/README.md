@@ -1,5 +1,5 @@
 # What is this project about?
-This project is supposed to be a chat bot simulating Jair Bolsonaro
+This project is supposed to be a chat bot
 
 ## How to use
 Clone this repository into your PC and install modules using\
